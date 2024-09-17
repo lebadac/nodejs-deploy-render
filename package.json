@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-deploy-render",
+  "version": "1.0.0",
+  "description": "exercise project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "debug": "nodemon index.js"
+  },
+  "author": "Dac",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
